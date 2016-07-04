@@ -1,4 +1,4 @@
-Template.loading.rendered = function () {
+/* Template.loading.rendered = function () {
   if ( ! Session.get('loadingSplash') ) {
     this.loading = window.pleaseWait({
       logo: '/images/Meteor-logo.png',
@@ -17,3 +17,4 @@ Template.loading.destroyed = function () {
 
 var message = '<p class="loading-message">Loading Message</p>';
 var spinner = '<div class="sk-spinner sk-spinner-rotating-plane"></div>';
+*/

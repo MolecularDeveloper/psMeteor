@@ -12,7 +12,13 @@
   text-align: center;
 }
 .navbar {
-  background-color: rgba(255, 23, 25, 0.5);;
+  background-color: rgba(130, 225, 200, 1);
+}
+.navbar a {
+  color: white !important;
+}
+.navbar a:hover {
+  color: grey !important;  
 }
 .error {
   margin: 0 auto;
