@@ -1,5 +1,57 @@
-<template name="homeIndex">
-  <p>
-    sup
-  </p>
+
+  <template name="homeIndex">
+  <div class="cover">
+    <div class="clearfix"></div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="jumbotron">
+          <h1>inkCrm</h1>
+          <h2>A tattoo experience for the 21st century.</h2>
+          <p class="lead">
+            connecting local tattoo artists with consumers
+            in a safe, professional, manner.
+          </p>
+        </div>
+          <div class="row">
+            <div class="col-md-4 card">
+              <p>
+                Submit a tattoo request
+              </p>
+              <p>
+                Receive responses from local artists
+              </p>
+              <i class="fa fa-comments-o fa-4x"></i>
+            </div>
+            <div class="col-md-4 card">
+              <p>
+                Reach Agreement on details
+              </p>
+              <p>
+                Pay securely & remotely
+              </p>
+              <i class="fa fa-shopping-cart fa-4x"></i>
+            </div>
+            <div class="col-md-4 card">
+              <p>
+                Show up to Appointment
+              </p>
+              <p>
+                Enjoy your new stress-free ink
+              </p>
+              <i class="fa fa-automobile fa-4x"></i>
+            </div>
+          </div>
+      </div>
+      <hr/>
+    </div>
+  </div>
+  <div class="container marketing">
+    <div class="row">
+      {{#each featured}}
+        {{> productTile this}}
+      {{/each}}
+    </div>
+  </div>
 </template>

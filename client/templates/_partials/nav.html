@@ -8,13 +8,13 @@
           <span class="icon-bar">posts</span>
           <span class="icon-bar">messages</span>
         </button>
-        <a class="navbar-brand" href="#">crmInk</a>
+        <a class="navbar-brand" href="{{pathFor 'homeIndex'}}">crmInk</a>
       </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a href="/dashboard">dashboard</a></li>
-          <li><a href="/posts">posts</a></li>
-          <li><a href="/messages">messages</a></li>
+          <li><a href="{{pathFor 'dashboard'}}">dashboard</a></li>
+          <li><a href="{{pathFor 'posts'}}">posts</a></li>
+          <li><a href="{{pathFor 'messages'}}">messages</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>

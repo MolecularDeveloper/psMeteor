@@ -3,3 +3,4 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 import './templates/content.html';
+import '../imports/api/posts.js'
