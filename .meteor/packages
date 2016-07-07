@@ -23,3 +23,5 @@ twbs:bootstrap
 iron:router
 pcel:loading
 fortawesome:fontawesome
+pcuci:bootcards
+fourseven:scss

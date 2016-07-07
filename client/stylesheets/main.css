@@ -67,3 +67,9 @@
 .sk-spinner-rotating-plane.sk-spinner {
   background-color: #fff;
 }
+
+.li .right {
+  position: fixed;
+  float: right;
+  margin-right: 0px;  
+}

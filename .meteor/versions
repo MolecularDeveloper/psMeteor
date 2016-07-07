@@ -25,6 +25,7 @@ ejson@1.0.12
 es5-shim@4.5.12_1
 fastclick@1.0.12
 fortawesome:fontawesome@4.5.0
+fourseven:scss@3.8.0_1
 geojson-utils@1.0.9
 hot-code-push@1.0.4
 html-tools@1.0.10
@@ -55,10 +56,13 @@ modules@0.6.4
 modules-runtime@0.6.4_1
 mongo@1.1.9_1
 mongo-id@1.0.5
+nemo64:bootstrap@3.3.5_3
+nemo64:bootstrap-data@3.3.5
 npm-mongo@1.4.44_1
 observe-sequence@1.0.12
 ordered-dict@1.0.8
 pcel:loading@1.0.3
+pcuci:bootcards@1.0.0_6
 promise@0.7.2_1
 random@1.0.10
 reactive-dict@1.1.8
