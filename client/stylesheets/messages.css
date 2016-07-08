@@ -378,3 +378,7 @@ div.message.right .corner{
 overflow:hidden;
 border-radius:6px;
 }
+
+.input {
+	background-color: white!important;
+}

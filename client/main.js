@@ -84,11 +84,6 @@ $(document).ready(function(){
 				}, 50);
 			});
 
-      $('li > a').click(function() {
-    $('li').removeClass();
-    $(this).addClass('active');
-      });
-
 		});
 	});
 });

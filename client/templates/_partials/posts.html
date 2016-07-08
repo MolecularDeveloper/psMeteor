@@ -1,25 +1,51 @@
 <template name="posts">
   <div class="container">
+
+    <div class="row search-row">
+      <div class="col-md-12">
+        <div class="center-block">
+          <input type="text" placeholder="search" /><button class="btn btn-info">go</button>
+        </div>
+      </div>
+    </div>
+
     <div class="row">
-      <div class="col-sm-4 bootcards-list">
-        <div class="panel panel-default">
-          <div class="panel-heading clearfix">
-            <h3 class="panel-title pull-left">GitHub projects</h3>
-            </div>
-            <div class="list-group">
-              <div class="list-group-item">
-                <h4>pcuci:bootcards Meteor Package</h4>
-                <p class="list-group-item-text"><a href="https://github.com/pcuci/bootcards">https://github.com/pcuci/bootcards</a></p>
-              </div>
-              <div class="list-group-item">
-                <h4>bootcards-demo Code (this site)</h4>
-                <p class="list-group-item-text"><a href="https://github.com/pcuci/bootcards-demo">https://github.com/pcuci/bootcards-demo</a></p>
-              </div>
-            </div>
+
+      <div class="col-lg-4 col-sm-6 col-md-4 bootcards-list">
+        <div class="panel panel-default bootcards-media">
+          <div class="panel-heading">
+            <h3 class="panel-title">Large Portrait</h3>
+          </div>
+          <div class="panel-body">
+            Large Portrait - Posted : today at 8:33 a.m.
+          </div>
+          <img src="http://wallpapercave.com/wp/I6NLVGM.jpg" height="200" class="img-responsive"/>
           <div class="panel-footer">
-            <small>Built with Bootcards - Base Card</small>
+            <div class="btn-group btn-group-justified">
+              <div class="btn-group">
+                <button class="btn btn-default">
+                  <i class="fa fa-bookmark-o"></i>
+                  bookmark
+                </button>
+              </div>
+              <div class="btn-group">
+                <button class="btn btn-default">
+                  <i class="fa fa-comments-o"></i>
+                  message
+                </button>
+              </div>
+              <div class="btn-group">
+                <button class="btn btn-default">
+                  <i class="fa fa-trash-o"></i>
+                  remove
+                </button>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 col-md-4 bootcards-list">
         <div class="panel panel-default bootcards-media">
           <div class="panel-heading">
             <h3 class="panel-title">Media Card Heading</h3>
@@ -27,32 +53,33 @@
           <div class="panel-body">
             Media card description lorem ipsum dolor est compendium
           </div>
-          <img src="http://www.teamstudio.com/Portals/218295/images/istock_000001242290small.jpg" class="img-responsive"/>
+          <img src="http://www.timbena.com/i/tattoo-machine-high-quality-resolution-wallpapers.jpg" height="200" class="img-responsive"/>
           <div class="panel-footer">
             <div class="btn-group btn-group-justified">
               <div class="btn-group">
                 <button class="btn btn-default">
-                  <i class="fa fa-arrow-down"></i>
-                  Download
+                  <i class="fa fa-bookmark"></i>
+                  bookmark
                 </button>
               </div>
               <div class="btn-group">
                 <button class="btn btn-default">
                   <i class="fa fa-star"></i>
-                  Favorite
+                  message
                 </button>
               </div>
               <div class="btn-group">
                 <button class="btn btn-default">
-                  <i class="fa fa-envelope"></i>
-                  Email
+                  <i class="fa fa-trash"></i>
+                  remove
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 bootcards-cards">
+
+      <div class="col-lg-4 col-sm-6 col-md-4 bootcards-list">
         <div class="panel panel-default bootcards-media">
           <div class="panel-heading">
             <h3 class="panel-title">Media Card Heading</h3>
@@ -60,32 +87,33 @@
           <div class="panel-body">
             Media card description lorem ipsum dolor est compendium
           </div>
-          <img src="http://www.teamstudio.com/Portals/218295/images/istock_000001242290small.jpg" class="img-responsive"/>
+          <img src="http://www.designboom.com/cms/images/jenny/tattoo/tattoo09.jpg" height="200" class="img-responsive"/>
           <div class="panel-footer">
             <div class="btn-group btn-group-justified">
               <div class="btn-group">
                 <button class="btn btn-default">
-                  <i class="fa fa-arrow-down"></i>
-                  Download
+                  <i class="fa fa-bookmark"></i>
+                  bookmark
                 </button>
               </div>
               <div class="btn-group">
                 <button class="btn btn-default">
                   <i class="fa fa-star"></i>
-                  Favorite
+                  message
                 </button>
               </div>
               <div class="btn-group">
                 <button class="btn btn-default">
-                  <i class="fa fa-envelope"></i>
-                  Email
+                  <i class="fa fa-trash"></i>
+                  remove
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-sm-2 bootcards-cards">
+
+      <div class="col-lg-4 col-sm-6 col-md-4 bootcards-list">
         <div class="panel panel-default bootcards-media">
           <div class="panel-heading">
             <h3 class="panel-title">Media Card Heading</h3>
@@ -93,31 +121,100 @@
           <div class="panel-body">
             Media card description lorem ipsum dolor est compendium
           </div>
-          <img src="http://www.teamstudio.com/Portals/218295/images/istock_000001242290small.jpg" class="img-responsive"/>
+          <img src="https://photoshoppedart.files.wordpress.com/2013/05/machineandgears.jpg" height="200" class="img-responsive"/>
           <div class="panel-footer">
             <div class="btn-group btn-group-justified">
               <div class="btn-group">
                 <button class="btn btn-default">
-                  <i class="fa fa-arrow-down"></i>
-                  Download
+                  <i class="fa fa-bookmark"></i>
+                  bookmark
                 </button>
               </div>
               <div class="btn-group">
                 <button class="btn btn-default">
                   <i class="fa fa-star"></i>
-                  Favorite
+                  message
                 </button>
               </div>
               <div class="btn-group">
                 <button class="btn btn-default">
-                  <i class="fa fa-envelope"></i>
-                  Email
+                  <i class="fa fa-trash"></i>
+                  remove
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="col-lg-4 col-sm-6 col-md-4 bootcards-list">
+        <div class="panel panel-default bootcards-media">
+          <div class="panel-heading">
+            <h3 class="panel-title">Media Card Heading</h3>
+          </div>
+          <div class="panel-body">
+            Media card description lorem ipsum dolor est compendium
+          </div>
+          <img src="http://static1.squarespace.com/static/55fe4cefe4b0f86318e82a32/t/5612d9fde4b0a8aca3731af1/1444067671163/559b219044b99.jpg?format=1500w" height="200" class="img-responsive"/>
+          <div class="panel-footer">
+            <div class="btn-group btn-group-justified">
+              <div class="btn-group">
+                <button class="btn btn-default">
+                  <i class="fa fa-bookmark"></i>
+                  bookmark
+                </button>
+              </div>
+              <div class="btn-group">
+                <button class="btn btn-default">
+                  <i class="fa fa-star"></i>
+                  message
+                </button>
+              </div>
+              <div class="btn-group">
+                <button class="btn btn-default">
+                  <i class="fa fa-trash"></i>
+                  remove
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 col-md-4 bootcards-list">
+        <div class="panel panel-default bootcards-media">
+          <div class="panel-heading">
+            <h3 class="panel-title">Media Card Heading</h3>
+          </div>
+          <div class="panel-body">
+            Media card description lorem ipsum dolor est compendium
+          </div>
+          <img src="http://pre12.deviantart.net/e3e7/th/pre/i/2011/164/0/e/dead_dolls_tattoo_by_mkshots-d3itlph.jpg" height="200" class="img-responsive"/>
+          <div class="panel-footer">
+            <div class="btn-group btn-group-justified">
+              <div class="btn-group">
+                <button class="btn btn-default">
+                  <i class="fa fa-bookmark"></i>
+                  bookmark
+                </button>
+              </div>
+              <div class="btn-group">
+                <button class="btn btn-default">
+                  <i class="fa fa-star"></i>
+                  message
+                </button>
+              </div>
+              <div class="btn-group">
+                <button class="btn btn-default">
+                  <i class="fa fa-trash"></i>
+                  remove
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>

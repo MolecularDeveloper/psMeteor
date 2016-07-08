@@ -10,26 +10,19 @@
           <span class="icon-bar">messages</span>
         </button>
       </div>
-      <button type="button" class="btn btn-default btn-back pull-left hidden">
-        <i class="fa fa-lg fa-chevron-left"></i>
-        <span>Back</span>
-      </button>
-      <button type="button" class="btn btn-default btn-menu pull-left offcanvas-toggle">
-        <i class="fa fa-lg fa-bars"></i>
-        <span>Menu</span>
-      </button>
-      <a class="navbar-brand" href="{{pathFor 'homeIndex'}}">ink-Link</a>
+      <a class="navbar-brand" href="{{pathFor 'homeIndex'}}"><i class="fa fa-link"> ink-Link</i></a>
+
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li>
             <a href="{{pathFor 'dashboard'}}">
-              <i class="fa fa-users"></i>
+              <i class="fa fa-dashboard"></i>
                dashboard
             </a>
           </li>
           <li>
             <a href="{{pathFor 'posts'}}">
-              <i class="fa fa-conversation-o"></i>
+              <i class="fa fa-clipboard"></i>
               posts
             </a>
           </li>
@@ -39,18 +32,13 @@
               messages
             </a>
           </li>
-          <li class="pull-right">
+        </ul>
+          <li class="login pull-right">
             <a href="{{pathFor 'login'}}">
             <i class="fa fa-user"></i>
             login
           </a>
           </li>
-        </ul>
-        <form class="navbar-form pull-right">
-              <input class="span2" type="text" placeholder="username">
-              <input class="span2" type="password" placeholder="password">
-              <button type="submit" class="btn">Sign in</button>
-            </form>
       </div>
     </div>
   </div>
